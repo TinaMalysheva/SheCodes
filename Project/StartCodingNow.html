@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Coding Now</title>
+    <style>
+        h1{
+            text-align: center;
+            color:#7d51e8;
+        }
+        h2{
+            text-align: center;
+            border:2px solid #7d51e8;
+            padding: 10px;
+            font-size:20px;
+            border-radius:6px;
+        }
+        img {
+            display:block;
+            margin:0 auto;
+            max-width:100%;
+            border-radius:15px;
+        }
+        p {line-height:1,5;
+        font-size:15px;
+        margin:15px 0 10px;
+            
+        }
+             button {
+        display: block;
+        margin: 25px auto;
+        background: #7d51e8;
+        color: white;
+        font-size: 20px;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 4px;
+        box-shadow: 5px 5px 10px rgba(120, 22, 145, 0.3);
+        transition: all 200ms ease-in-out;
+             }
+             button:hover {
+        opacity: 0.8;
+        cursor: pointer;
+      }
+       .container {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px 40px;
+      }
+        .learn-more {
+        color: #7d51e8;
+        text-decoration:wavy;
+        font-size: 20px;
+      }
+       .learn-more:hover {
+        text-decoration: underline;
+      }
+       .footer {
+        text-align: center;
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>
+        Start Coding Now!
+    </h1>
+    <h2>
+       Stop Procrastination! Let's code with  SheCodes! 
+       The Best time is Now!
+    </h2>
+    <img
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1pwjOCfLGXt_A-2t7rzi-fd8UPnxzptvqZA&usqp=CAU"
+    alt="Woman is coding"
+    />
+    <p>
+     Have you ever been told or believed yourself that you are not good enough? That female brain is too stupid to comprehend sophisticated programming ? That you will never achieve anything, so you should stop even trying ?  I was. And I signed up to SheCodes Courses and changed my perseption about my own abilities. And so can you.
+        Coding is empowering. It gives you freedom of expression, understanding you can more than you think. It enables you to solve puzzles and find solutions, be proactive, be inventive, be creative, because there is always a Solution ahead. Trust in yourself. Try out Shecodes, you will never regret. You will only regret if you do not try.
+    </p>
+    <a href="https://www.shecodes.io/"
+     target="_blank" 
+     class="learn-more">
+        Learn more on SheCodes
+    </a>
+    
+    <button class="UnlockYourPotentialPower-button">
+        Unlock Your Potential Power
+    </button>
+    <p class="footer">
+        This page was built by
+        <a href="https://www.facebook.com/tina.glas.165/" target="_blank">
+            Valentina Malysheva (Pseudonym Tina Glas)
+        </a>
+    </p>
+</div>
+<script>
+    function UnlockYourPotentialPower(){
+        let name = prompt ("What is your name?");
+        let email = prompt ("What is your email address?");
+        let phone = prompt ("What is your Phone number?");
+        alert ("Thank you, "+ name + "! We will send you email with more info, meanwhile subscribe for SheCodes Course. It is really fun and you can do it! ");
+    }
+    let UnlockYourPotentialPowerButton = document.querySelector(".UnlockYourPotentialPower-button");
+    UnlockYourPotentialPowerButton.addEventListener("click", UnlockYourPotentialPower);
+</script>
+</body>
+</html>
